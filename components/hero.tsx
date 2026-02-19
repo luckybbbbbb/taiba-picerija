@@ -53,6 +53,9 @@ export function Hero() {
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
+          <span className="inline-block text-taiba-red font-bold text-sm md:text-base uppercase tracking-[0.2em]">
+            Taiba Picerija
+          </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-taiba-white leading-tight text-balance">
             {"Poručite Pravu Napuljsku Pizzu Online"}
           </h1>
