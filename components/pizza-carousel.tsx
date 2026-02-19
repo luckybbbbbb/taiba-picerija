@@ -163,9 +163,12 @@ export function PizzaCarousel() {
                 </p>
 
                 <div className="flex items-center gap-3 pt-2">
-                  <button className="flex-1 bg-taiba-red text-taiba-white py-3 rounded-lg font-bold text-xs uppercase tracking-wider hover:bg-taiba-red-dark transition-colors">
-                    Dodaj U Korpu
-                  </button>
+                  <a
+                    href="#menu"
+                    className="flex-1 bg-taiba-red text-taiba-white py-3 rounded-lg font-bold text-xs uppercase tracking-wider hover:bg-taiba-red-dark transition-colors text-center"
+                  >
+                    Poruči
+                  </a>
                   <button
                     className="w-11 h-11 rounded-lg border border-taiba-white/20 flex items-center justify-center text-taiba-white/50 hover:text-taiba-red hover:border-taiba-red transition-colors"
                     aria-label={`Dodaj ${pizza.name} u listu želja`}

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Phone, User, Heart, ShoppingCart, Search, Menu, X } from "lucide-react"
+import { Phone, User, Heart, Search, Menu, X } from "lucide-react"
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -23,12 +23,6 @@ export function Navbar() {
           </button>
           <button aria-label="Lista želja" className="relative text-taiba-white/70 hover:text-taiba-white transition-colors">
             <Heart className="w-5 h-5" />
-            <span className="absolute -top-1.5 -right-1.5 bg-taiba-red text-taiba-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
-              0
-            </span>
-          </button>
-          <button aria-label="Korpa" className="relative text-taiba-white/70 hover:text-taiba-white transition-colors">
-            <ShoppingCart className="w-5 h-5" />
             <span className="absolute -top-1.5 -right-1.5 bg-taiba-red text-taiba-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
               0
             </span>
@@ -77,12 +71,9 @@ export function Navbar() {
           </a>
         </div>
 
-        {/* Mobile cart */}
-        <button aria-label="Korpa" className="md:hidden relative text-taiba-white">
-          <ShoppingCart className="w-6 h-6" />
-          <span className="absolute -top-1.5 -right-1.5 bg-taiba-red text-taiba-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
-            0
-          </span>
+        {/* Mobile search */}
+        <button aria-label="Pretraga" className="md:hidden text-taiba-white">
+          <Search className="w-6 h-6" />
         </button>
       </nav>
 
