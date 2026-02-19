@@ -57,10 +57,10 @@ export function Hero() {
             Taiba Picerija - Preko 20 godina sa vama
           </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-taiba-white leading-tight text-balance">
-            {"Poručite Vašu Omiljenu Pizzu Online"}
+            {"Poručite Vašu omiljenu Pizzu online"}
           </h1>
           <p className="text-lg md:text-xl font-bold text-taiba-white">
-            {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
+            {"Taiba BESPLATNO dostavlja na Vašu adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
             {"Uživajte u najboljoj pici iz udobnosti svog doma! Taiba Café & Restaurant - picerija sa tradicijom dužom od 20 godina. Jednostavno poručite online. Dostavljamo svakog dana od 11h do 23h."}
