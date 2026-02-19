@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: '%s | Taiba Picerija & Restaurant',
   },
   description:
-    'Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Poručite online picu (Kapričoza, Margarita, Fungi, Porodična), pohovanu piletinu, tostade, topli sendvič, rolovano belo. Ramazanski meni za iftar i sufur. Besplatna dostava!',
+    'Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Poručite online picu (Kaprićoza, Margarita, Fungi, Porodična), pohovanu piletinu, tostade, topli sendvič, rolovano belo. Ramazanski meni za iftar i sufur. Besplatna dostava!',
   keywords: [
     'Taiba Picerija',
     'Taiba Picerija Novi Pazar',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     'dostava hrane Novi Pazar',
     'besplatna dostava pizza',
     'poruci pizzu online',
-    'Kapričoza pizza',
+    'Kaprićoza pizza',
     'Margarita pizza',
     'Fungi pizza',
     'Porodična pizza',

@@ -12,7 +12,7 @@ const pizzas = [
     ingredients: "Pelat, mozzarella, bosiljak, maslinovo ulje",
   },
   {
-    name: "KAPRIČOZA",
+    name: "Kaprićoza",
     image: "/images/pizza-capricciosa.jpg",
     price: "",
     ingredients: "Pelat, mozzarella, pršuta, šampinjoni, masline",
@@ -76,7 +76,7 @@ export function PizzaCarousel() {
   return (
     <section
       ref={sectionRef}
-      aria-label="Naše pice — Kapričoza, Margarita, Fungi, Porodična"
+      aria-label="Naše pice — Kaprićoza, Margarita, Fungi, Porodična"
       className="bg-taiba-dark py-16 md:py-24"
     >
       <div className="max-w-7xl mx-auto px-6">

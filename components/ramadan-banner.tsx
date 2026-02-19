@@ -6,7 +6,7 @@ import { Moon, Star, Check } from "lucide-react"
 const menuItems = [
   {
     category: "Pice",
-    items: ["Kapričoza", "Margarita", "Fungi", "Porodična"],
+    items: ["Kaprićoza", "Margarita", "Fungi", "Porodična"],
   },
   {
     category: "Ostala Ponuda",

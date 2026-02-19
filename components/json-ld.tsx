@@ -70,7 +70,7 @@ export function JsonLd() {
         hasMenuItem: [
           {
             '@type': 'MenuItem',
-            name: 'Kapričoza',
+            name: 'Kaprićoza',
             description: 'Pelat, mozzarella, pršuta, šampinjoni, masline',
             suitableForDiet: 'https://schema.org/HalalDiet',
           },

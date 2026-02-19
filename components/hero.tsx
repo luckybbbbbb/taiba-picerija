@@ -64,7 +64,7 @@ export function Hero() {
             {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-            {"Uživajte u najboljoj pici, pohovanoj piletini, tostadama i sendvičima iz udobnosti svog doma! Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Poručite online — Kapričoza, Margarita, Fungi, Porodična pizza. Dostavljamo svakog dana od 11h do 23h."}
+            {"Uživajte u najboljoj pici, pohovanoj piletini, tostadama i sendvičima iz udobnosti svog doma! Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Poručite online — Kaprićoza, Margarita, Fungi, Porodična pizza. Dostavljamo svakog dana od 11h do 23h."}
           </p>
           <div>
             <a
@@ -85,7 +85,7 @@ export function Hero() {
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-taiba-red/20">
             <Image
               src="/images/hero-pizza.jpg"
-              alt="Taiba Picerija Novi Pazar — pizza dostava, Kapričoza, Margarita, Fungi, Porodična"
+              alt="Taiba Picerija Novi Pazar — pizza dostava, Kaprićoza, Margarita, Fungi, Porodična"
               fill
               className="object-cover"
               priority
