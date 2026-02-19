@@ -32,7 +32,7 @@ export function Footer() {
               className="h-16 w-auto"
             />
             <p className="text-taiba-white/50 text-sm leading-relaxed">
-              {"Autentična napuljska pizza u srcu Novog Pazara. Prava italijanska tradicija sa najboljim sastojcima."}
+              {"Taiba Picerija — preko 20 godina u srcu Novog Pazara. Tradicija, kvalitet i ukus koji se pamti."}
             </p>
           </div>
 

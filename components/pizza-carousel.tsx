@@ -6,40 +6,28 @@ import { ChevronLeft, ChevronRight, Heart } from "lucide-react"
 
 const pizzas = [
   {
-    name: "MARGHERITA",
+    name: "MARGARITA",
     image: "/images/pizza-margherita.jpg",
-    price: "650",
-    ingredients: "Pelat, mozzarella fior di latte, svježi bosiljak, maslinovo ulje",
+    price: "",
+    ingredients: "Pelat, mozzarella, bosiljak, maslinovo ulje",
   },
   {
-    name: "PROSCIUTTO E FUNGHI",
-    image: "/images/pizza-prosciutto.jpg",
-    price: "850",
-    ingredients: "Pelat, mozzarella, pršuta cotto, šampinjoni, maslinovo ulje",
-  },
-  {
-    name: "QUATTRO FORMAGGI",
-    image: "/images/pizza-quattro.jpg",
-    price: "900",
-    ingredients: "Mozzarella, gorgonzola, parmezan, fontina, maslinovo ulje",
-  },
-  {
-    name: "DIAVOLA",
-    image: "/images/pizza-diavola.jpg",
-    price: "800",
-    ingredients: "Pelat, mozzarella, ljuti salami, čili pahuljice, maslinovo ulje",
-  },
-  {
-    name: "CAPRICCIOSA",
+    name: "KAPRIČOZA",
     image: "/images/pizza-capricciosa.jpg",
-    price: "900",
-    ingredients: "Pelat, mozzarella, pršuta, šampinjoni, artičoka, masline",
+    price: "",
+    ingredients: "Pelat, mozzarella, šunka, šampinjoni, masline",
   },
   {
-    name: "BUFALO",
-    image: "/images/pizza-bufalo.jpg",
-    price: "950",
-    ingredients: "Pelat, buffalo mozzarella, cherry rajčice, svježi bosiljak",
+    name: "FUNGI",
+    image: "/images/pizza-prosciutto.jpg",
+    price: "",
+    ingredients: "Pelat, mozzarella, šampinjoni, maslinovo ulje",
+  },
+  {
+    name: "PORODIČNA",
+    image: "/images/pizza-quattro.jpg",
+    price: "",
+    ingredients: "Velika pizza za celu porodicu — pelat, mozzarella, šunka, šampinjoni",
   },
 ]
 
@@ -98,7 +86,7 @@ export function PizzaCarousel() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white uppercase tracking-wider">
-            {"Odaberite Vašu Pizzu"}
+            {"Naše Pice"}
           </h2>
           <div className="hidden md:flex items-center gap-3">
             <button
@@ -148,9 +136,11 @@ export function PizzaCarousel() {
                   />
                 </div>
                 {/* Price badge */}
-                <div className="absolute top-4 right-4 bg-taiba-red text-taiba-white text-sm font-bold px-3 py-1.5 rounded-full">
-                  {pizza.price} RSD
-                </div>
+                {pizza.price && (
+                  <div className="absolute top-4 right-4 bg-taiba-red text-taiba-white text-sm font-bold px-3 py-1.5 rounded-full">
+                    {pizza.price} RSD
+                  </div>
+                )}
               </div>
 
               {/* Info */}

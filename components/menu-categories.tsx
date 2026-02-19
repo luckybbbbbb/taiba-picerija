@@ -1,23 +1,28 @@
 "use client"
 
-import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
+import { Pizza, Drumstick, Sandwich, UtensilsCrossed } from "lucide-react"
 
-const categories = [
+const menuSections = [
   {
-    name: "Pizze 32CM",
-    image: "/images/category-pizza.jpg",
-    label: "PORUČI",
+    name: "Pice",
+    icon: Pizza,
+    items: ["Kapričoza", "Margarita", "Fungi", "Porodična"],
   },
   {
-    name: "Panino",
-    image: "/images/category-panino.jpg",
-    label: "PORUČI",
+    name: "Pohovana Piletina",
+    icon: Drumstick,
+    items: ["Pohovana piletina — hrskava i sočna, služi se sa prilogom"],
   },
   {
-    name: "Dezerte",
-    image: "/images/category-dessert.jpg",
-    label: "PORUČI",
+    name: "Sendviči & Tostade",
+    icon: Sandwich,
+    items: ["Topli Sendvič", "Tostada"],
+  },
+  {
+    name: "Rolovano Belo",
+    icon: UtensilsCrossed,
+    items: ["Rolovano Belo — sa domaćim filom"],
   },
 ]
 
@@ -50,48 +55,49 @@ export function MenuCategories() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white mb-4 text-balance">
-            {"Poručite Online — Najbolje iz Taibe na Vašoj Adresi!"}
+            {"Naša Ponuda"}
           </h2>
           <p className="text-taiba-white/60 max-w-2xl mx-auto leading-relaxed">
-            {"Izaberite između autentičnih napuljskih pica, bogato punjenih calzone, ili slasnih italijanskih dezerta — dostavljamo direktno na vaša vrata u Novom Pazaru."}
+            {"Izaberite između naših ukusnih pica, pohovane piletine, tostada, toplih sendviča i rolovaog belog — dostavljamo direktno na vaša vrata u Novom Pazaru."}
           </p>
         </div>
 
-        {/* Category cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {categories.map((cat, i) => (
-            <a
-              key={cat.name}
-              href="#menu"
-              className={`group flex flex-col items-center text-center transition-all duration-700 ${
-                visible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-8"
-              }`}
-              style={{ transitionDelay: visible ? `${i * 150}ms` : "0ms" }}
-            >
-              {/* Label */}
-              <span className="text-taiba-red font-bold text-sm uppercase tracking-wider mb-4">
-                {cat.label}
-              </span>
+        {/* Menu grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {menuSections.map((section, i) => {
+            const Icon = section.icon
+            return (
+              <div
+                key={section.name}
+                className={`bg-taiba-white/5 border border-taiba-white/10 rounded-2xl p-6 md:p-8 hover:border-taiba-red/40 transition-all duration-700 ${
+                  visible
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-8"
+                }`}
+                style={{ transitionDelay: visible ? `${i * 120}ms` : "0ms" }}
+              >
+                {/* Icon */}
+                <div className="w-14 h-14 rounded-full bg-taiba-red/10 flex items-center justify-center mb-5">
+                  <Icon className="w-7 h-7 text-taiba-red" />
+                </div>
 
-              {/* Circular image */}
-              <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden mb-6 ring-4 ring-taiba-red/20 group-hover:ring-taiba-red/50 group-hover:scale-105 transition-all duration-300">
-                <Image
-                  src={cat.image}
-                  alt={cat.name}
-                  fill
-                  className="object-cover"
-                  sizes="224px"
-                />
+                {/* Name */}
+                <h3 className="text-taiba-white font-bold text-lg uppercase tracking-wider mb-4">
+                  {section.name}
+                </h3>
+
+                {/* Items */}
+                <ul className="space-y-2">
+                  {section.items.map((item) => (
+                    <li key={item} className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-taiba-red flex-shrink-0" />
+                      <span className="text-taiba-white/60 text-sm">{item}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-
-              {/* Name */}
-              <h3 className="text-taiba-white font-bold text-xl uppercase tracking-wider group-hover:text-taiba-red transition-colors">
-                {cat.name}
-              </h3>
-            </a>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>

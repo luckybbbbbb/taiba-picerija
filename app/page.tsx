@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
+import { RamadanBanner } from "@/components/ramadan-banner"
 import { Ingredients } from "@/components/ingredients"
 import { MenuCategories } from "@/components/menu-categories"
 import { OrderFeatures } from "@/components/order-features"
@@ -11,6 +12,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <RamadanBanner />
       <Ingredients />
       <MenuCategories />
       <OrderFeatures />

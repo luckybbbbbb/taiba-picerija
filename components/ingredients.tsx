@@ -6,19 +6,19 @@ import { Check } from "lucide-react"
 
 const ingredientPoints = [
   {
-    title: "Nulto brašno",
+    title: "Preko 20 godina tradicije",
     description:
-      "Koristimo pravo italijansko tipo 00 brašno za hrskavo i vazdušasto testo koje se topi u ustima.",
+      "Taiba Picerija postoji više od dve decenije. Generacije zadovoljnih gostiju su naše najveće priznanje.",
   },
   {
-    title: "Ciao pelat",
+    title: "Kvalitetni sastojci",
     description:
-      "Bogate i sočne San Marzano rajčice iz Kampanije daju neponovljiv ukus svakoj pizzi.",
+      "Koristimo samo najkvalitetnije sastojke — svež pelat, pravi sir i testo koje pravimo svaki dan.",
   },
   {
-    title: "Izzo peć",
+    title: "Besplatna dostava",
     description:
-      "Pečemo u Izzo peći — jednoj od najboljih pizza peći na svetu za autentičan napuljski ukus.",
+      "Dostavljamo besplatno na teritoriji celog Novog Pazara — svaki dan od 11h do 23h.",
   },
 ]
 
@@ -52,7 +52,7 @@ export function Ingredients() {
           <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/images/ingredients-pizza.jpg"
-              alt="Italijanski sastojci za pravu napuljsku pizzu"
+              alt="Taiba Picerija — Preko 20 godina sa vama"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -67,7 +67,7 @@ export function Ingredients() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-black leading-tight text-balance">
-            {"Najbolji Sastojci iz Italije — Tajna Savršene Pizze u Taibi!"}
+            {"Taiba Picerija — Više od 20 Godina Ukusa i Tradicije!"}
           </h2>
 
           <div className="space-y-6">
