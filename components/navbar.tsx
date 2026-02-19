@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Phone, Menu, X } from "lucide-react"
 
 export function Navbar() {
@@ -46,13 +47,15 @@ export function Navbar() {
         </div>
 
         {/* Logo center */}
-        <a href="#pocetna" className="flex flex-col items-center">
-          <span className="text-taiba-white text-2xl md:text-3xl font-bold tracking-tight">
-            taiba
-          </span>
-          <span className="text-taiba-red text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase">
-            Picerija & Restaurant
-          </span>
+        <a href="#pocetna" className="flex items-center">
+          <Image
+            src="/images/taiba-logo.png"
+            alt="Taiba Café & Restaurant"
+            width={120}
+            height={112}
+            className="h-12 md:h-16 w-auto"
+            priority
+          />
         </a>
 
         {/* Nav links (right on desktop) */}

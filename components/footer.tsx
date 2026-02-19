@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 const infoLinks = [
@@ -23,14 +24,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Logo */}
           <div className="space-y-4">
-            <div>
-              <span className="text-taiba-white text-2xl font-bold tracking-tight">
-                taiba
-              </span>
-              <div className="text-taiba-red text-[10px] font-bold tracking-[0.2em] uppercase">
-                Picerija & Restaurant
-              </div>
-            </div>
+            <Image
+              src="/images/taiba-logo.png"
+              alt="Taiba Café & Restaurant"
+              width={120}
+              height={112}
+              className="h-16 w-auto"
+            />
             <p className="text-taiba-white/50 text-sm leading-relaxed">
               {"Autentična napuljska pizza u srcu Novog Pazara. Prava italijanska tradicija sa najboljim sastojcima."}
             </p>
@@ -71,9 +71,9 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-taiba-red flex-shrink-0 mt-0.5" />
-                <span className="text-taiba-white/60 text-sm">
-                  {"Novi Pazar, Srbija"}
-                </span>
+                <a href="https://www.google.com/maps/search/?api=1&query=Veljka+Vlahovića+12,+Novi+Pazar+36300" target="_blank" rel="noopener noreferrer" className="text-taiba-white/60 text-sm hover:text-taiba-red transition-colors">
+                  {"Veljka Vlahovića 12, Novi Pazar 36300"}
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-taiba-red flex-shrink-0 mt-0.5" />
@@ -112,7 +112,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-taiba-white/10 pt-8 text-center">
           <p className="text-taiba-white/40 text-sm">
-            {"© 2026 Taiba Picerija & Restaurant. Sva prava zadržana."}
+            {"© 2026 Taiba Café & Restaurant. Sva prava zadržana."}
           </p>
         </div>
       </div>

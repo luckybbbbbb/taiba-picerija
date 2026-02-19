@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Taiba Picerija & Restaurant | Dostava Prave Napuljske Pizze - Novi Pazar',
+  title: 'Taiba Café & Restaurant | Dostava Prave Napuljske Pizze - Novi Pazar',
   description:
-    'Naručite autentičnu napuljsku pizzu online. Besplatna dostava u Novom Pazaru. Taiba Picerija & Restaurant - najbolji italijanski sastojci, prava napuljska tradicija.',
+    'Naručite autentičnu napuljsku pizzu online. Besplatna dostava u Novom Pazaru. Taiba Café & Restaurant - najbolji italijanski sastojci, prava napuljska tradicija.',
 }
 
 export const viewport: Viewport = {
