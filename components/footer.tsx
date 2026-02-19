@@ -28,7 +28,7 @@ export function Footer() {
                 taiba
               </span>
               <div className="text-taiba-red text-[10px] font-bold tracking-[0.2em] uppercase">
-                Pizza Napoletana
+                Picerija & Restaurant
               </div>
             </div>
             <p className="text-taiba-white/50 text-sm leading-relaxed">
@@ -112,7 +112,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-taiba-white/10 pt-8 text-center">
           <p className="text-taiba-white/40 text-sm">
-            {"© 2026 Taiba Pizza Napoletana. Sva prava zadržana."}
+            {"© 2026 Taiba Picerija & Restaurant. Sva prava zadržana."}
           </p>
         </div>
       </div>

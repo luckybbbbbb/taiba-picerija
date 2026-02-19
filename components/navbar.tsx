@@ -51,7 +51,7 @@ export function Navbar() {
             taiba
           </span>
           <span className="text-taiba-red text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase">
-            Pizza Napoletana
+            Picerija & Restaurant
           </span>
         </a>
 

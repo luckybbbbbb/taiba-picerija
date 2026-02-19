@@ -60,7 +60,7 @@ export function Hero() {
             {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-            {"Uživajte u autentičnoj napuljskoj pici iz udobnosti svog doma! Taiba Pizza Napoletana omogućava jednostavno online poručivanje. Dostavljamo svakog dana od 11h do 23h."}
+            {"Uživajte u autentičnoj napuljskoj pici iz udobnosti svog doma! Taiba Picerija & Restaurant omogućava jednostavno online poručivanje. Dostavljamo svakog dana od 11h do 23h."}
           </p>
           <div>
             <a
