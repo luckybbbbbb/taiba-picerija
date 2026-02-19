@@ -27,7 +27,7 @@ const pizzas = [
     name: "PORODIČNA",
     image: "/images/pizza-quattro.jpg",
     price: "",
-    ingredients: "Velika pizza za celu porodicu — pelat, mozzarella, pršuta, šampinjoni",
+    ingredients: "Velika pizza za celu porodicu - pelat, mozzarella, pršuta, šampinjoni",
   },
 ]
 

@@ -32,7 +32,7 @@ export function Footer() {
               className="h-16 w-auto"
             />
             <p className="text-taiba-white/50 text-sm leading-relaxed">
-              {"Taiba Picerija — preko 20 godina u srcu Novog Pazara. Tradicija, kvalitet i ukus koji se pamti."}
+              {"Taiba Picerija - preko 20 godina u srcu Novog Pazara. Tradicija, kvalitet i ukus koji se pamti."}
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-taiba-red flex-shrink-0 mt-0.5" />
                 <span className="text-taiba-white/60 text-sm">
-                  {"Pon — Ned: 11:00 — 23:00"}
+                  {"Pon - Ned: 11:00 - 23:00"}
                 </span>
               </li>
               <li className="flex items-start gap-3">

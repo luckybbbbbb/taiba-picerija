@@ -54,7 +54,7 @@ export function Hero() {
           }`}
         >
           <span className="inline-block text-taiba-red font-bold text-sm md:text-base uppercase tracking-[0.2em]">
-            Taiba Picerija — Već Preko 20 Godina Sa Vama
+            Taiba Picerija - Preko 20 godina sa vama
           </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-taiba-white leading-tight text-balance">
             {"Poručite Vašu Omiljenu Pizzu Online"}
@@ -63,7 +63,7 @@ export function Hero() {
             {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-            {"Uživajte u najboljoj pici iz udobnosti svog doma! Taiba Café & Restaurant — picerija sa tradicijom dužom od 20 godina. Jednostavno poručite online. Dostavljamo svakog dana od 11h do 23h."}
+            {"Uživajte u najboljoj pici iz udobnosti svog doma! Taiba Café & Restaurant - picerija sa tradicijom dužom od 20 godina. Jednostavno poručite online. Dostavljamo svakog dana od 11h do 23h."}
           </p>
           <div>
             <a
@@ -84,7 +84,7 @@ export function Hero() {
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-taiba-red/20">
             <Image
               src="/images/hero-pizza.jpg"
-              alt="Taiba Picerija — Najbolja pizza u Novom Pazaru"
+              alt="Taiba Picerija - Najbolja pizza u Novom Pazaru"
               fill
               className="object-cover"
               priority

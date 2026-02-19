@@ -12,7 +12,7 @@ const menuSections = [
   {
     name: "Pohovana Piletina",
     icon: Drumstick,
-    items: ["Pohovana piletina — hrskava i sočna, služi se sa prilogom"],
+    items: ["Pohovana piletina - hrskava i sočna, služi se sa prilogom"],
   },
   {
     name: "Sendviči & Tostade",
@@ -22,7 +22,7 @@ const menuSections = [
   {
     name: "Rolovano Belo",
     icon: UtensilsCrossed,
-    items: ["Rolovano Belo — sa domaćim filom"],
+    items: ["Rolovano Belo - sa domaćim filom"],
   },
 ]
 
@@ -58,7 +58,7 @@ export function MenuCategories() {
             {"Naša Ponuda"}
           </h2>
           <p className="text-taiba-white/60 max-w-2xl mx-auto leading-relaxed">
-            {"Izaberite između naših ukusnih pica, pohovane piletine, tostada, toplih sendviča i rolovaog belog — dostavljamo direktno na vaša vrata u Novom Pazaru."}
+            {"Izaberite između naših ukusnih pica, pohovane piletine, tostada, toplih sendviča i rolovaog belog - dostavljamo direktno na vaša vrata u Novom Pazaru."}
           </p>
         </div>
 
