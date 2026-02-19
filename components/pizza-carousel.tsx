@@ -15,7 +15,7 @@ const pizzas = [
     name: "KAPRIČOZA",
     image: "/images/pizza-capricciosa.jpg",
     price: "",
-    ingredients: "Pelat, mozzarella, šunka, šampinjoni, masline",
+    ingredients: "Pelat, mozzarella, pršuta, šampinjoni, masline",
   },
   {
     name: "FUNGI",
@@ -27,7 +27,7 @@ const pizzas = [
     name: "PORODIČNA",
     image: "/images/pizza-quattro.jpg",
     price: "",
-    ingredients: "Velika pizza za celu porodicu — pelat, mozzarella, šunka, šampinjoni",
+    ingredients: "Velika pizza za celu porodicu — pelat, mozzarella, pršuta, šampinjoni",
   },
 ]
 
