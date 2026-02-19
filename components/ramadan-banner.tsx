@@ -87,14 +87,14 @@ export function RamadanBanner() {
           </p>
         </div>
 
-        {/* Ramazanski Menu */}
+        {/* Ramazanski Meni */}
         <div
           className={`transition-all duration-700 delay-200 ${
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
           <h3 className="text-center text-xl md:text-2xl font-bold text-yellow-400 uppercase tracking-wider mb-10">
-            Ramazanski Menu
+            Ramazanski Meni
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">

@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react"
 
 const categories = [
   { label: "PICE", href: "#menu" },
-  { label: "RAMAZANSKI MENU", href: "#ramazan" },
+  { label: "RAMAZANSKI MENI", href: "#ramazan" },
   { label: "CELA PONUDA", href: "#menu" },
 ]
 
