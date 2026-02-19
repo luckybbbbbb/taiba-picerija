@@ -5,17 +5,21 @@ import { MenuCategories } from "@/components/menu-categories"
 import { OrderFeatures } from "@/components/order-features"
 import { PizzaCarousel } from "@/components/pizza-carousel"
 import { Footer } from "@/components/footer"
+import { JsonLd } from "@/components/json-ld"
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
-      <RamadanBanner />
-      <MenuCategories />
-      <OrderFeatures />
-      <PizzaCarousel />
-      <Footer />
-    </main>
+    <>
+      <JsonLd />
+      <main>
+        <Navbar />
+        <Hero />
+        <RamadanBanner />
+        <MenuCategories />
+        <OrderFeatures />
+        <PizzaCarousel />
+        <Footer />
+      </main>
+    </>
   )
 }

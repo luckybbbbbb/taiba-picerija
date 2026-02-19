@@ -1,0 +1,8 @@
+# Taiba Picerija & Restaurant
+# https://taiba-picerija.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://taiba-picerija.vercel.app/sitemap.xml

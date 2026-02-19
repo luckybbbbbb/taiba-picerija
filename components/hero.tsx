@@ -28,6 +28,7 @@ export function Hero() {
     <section
       id="pocetna"
       ref={sectionRef}
+      aria-label="Početna stranica - Taiba Picerija Novi Pazar"
       className="relative min-h-screen flex flex-col pt-[100px] md:pt-[140px] bg-taiba-black overflow-hidden"
     >
       {/* Category bar */}
@@ -57,13 +58,13 @@ export function Hero() {
             Taiba Picerija - Preko 20 godina sa vama
           </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-taiba-white leading-tight text-balance">
-            {"Poručite Vašu omiljenu Pizzu online"}
+            {"Dostava Hrane Novi Pazar — Poručite Vašu Omiljenu Pizzu Online"}
           </h1>
           <p className="text-lg md:text-xl font-bold text-taiba-white">
-            {"Taiba BESPLATNO dostavlja na Vašu adresu!"}
+            {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-            {"Uživajte u najboljoj pici iz udobnosti svog doma! Taiba Café & Restaurant - picerija sa tradicijom dužom od 20 godina. Jednostavno poručite online. Dostavljamo svakog dana od 11h do 23h."}
+            {"Uživajte u najboljoj pici, pohovanoj piletini, tostadama i sendvičima iz udobnosti svog doma! Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Poručite online — Kapričoza, Margarita, Fungi, Porodična pizza. Dostavljamo svakog dana od 11h do 23h."}
           </p>
           <div>
             <a
@@ -84,7 +85,7 @@ export function Hero() {
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-taiba-red/20">
             <Image
               src="/images/hero-pizza.jpg"
-              alt="Taiba Picerija - Najbolja pizza u Novom Pazaru"
+              alt="Taiba Picerija Novi Pazar — pizza dostava, Kapričoza, Margarita, Fungi, Porodična"
               fill
               className="object-cover"
               priority

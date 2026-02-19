@@ -33,6 +33,7 @@ export function RamadanBanner() {
     <section
       id="ramazan"
       ref={sectionRef}
+      aria-label="Ramazanski meni — iftar i sufur dostava Novi Pazar"
       className="relative bg-gradient-to-br from-taiba-black via-[#1a1a2e] to-taiba-black py-16 md:py-24 overflow-hidden"
     >
       {/* Decorative stars */}
@@ -68,8 +69,11 @@ export function RamadanBanner() {
           </p>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white mb-6 text-balance">
-            {"Od subote (21.02.) Taiba će raditi 🌙"}
+            {"Ramazanski Meni — Iftar i Sufur Dostava u Novom Pazaru 🌙"}
           </h2>
+          <p className="text-taiba-white/80 text-base md:text-lg mb-4">
+            {"Od subote (21.02.) Taiba će raditi"}
+          </p>
 
           <div className="space-y-3 mb-6 max-w-lg mx-auto">
             <p className="text-taiba-white text-lg md:text-xl font-semibold flex items-center justify-center gap-3">

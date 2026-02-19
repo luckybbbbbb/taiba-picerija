@@ -19,20 +19,20 @@ const paymentMethods = [
 
 export function Footer() {
   return (
-    <footer id="kontakt" className="bg-taiba-gray pt-16 pb-8">
+    <footer id="kontakt" aria-label="Kontakt informacije — Taiba Picerija Novi Pazar" className="bg-taiba-gray pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Logo */}
           <div className="space-y-4">
             <Image
               src="/images/taiba-logo.png"
-              alt="Taiba Café & Restaurant"
+              alt="Taiba Picerija & Restaurant — Logo — Dostava hrane Novi Pazar"
               width={120}
               height={112}
               className="h-16 w-auto"
             />
             <p className="text-taiba-white/50 text-sm leading-relaxed">
-              {"Taiba Picerija - preko 20 godina u srcu Novog Pazara. Tradicija, kvalitet i ukus koji se pamti."}
+              {"Taiba Picerija & Restaurant - preko 20 godina u srcu Novog Pazara. Dostava pizza, pohovane piletine, tostada, toplih sendviča i rolovaog belog. Ramazanski meni za iftar i sufur."}
             </p>
           </div>
 

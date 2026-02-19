@@ -19,7 +19,7 @@ export function OrderFeatures() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="bg-taiba-white py-16 md:py-24">
+    <section ref={sectionRef} aria-label="Opcije poručivanja — dostava i ponesi" className="bg-taiba-white py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
           {/* Pickup */}
@@ -35,7 +35,7 @@ export function OrderFeatures() {
               {"Poručite Online Za Poneti!"}
             </h3>
             <p className="text-taiba-white/60 leading-relaxed mb-6 max-w-sm">
-              {"Poručite vašu omiljenu pizzu online i preuzmite je u Taibi. Brzo, jednostavno i uvek sveže iz peći."}
+              {"Poručite vašu omiljenu pizzu, pohovanu piletinu ili sendvič online i preuzmite u Taibi na adresi Veljka Vlahovića 12, Novi Pazar. Brzo, jednostavno i uvek sveže!"}
             </p>
             <a
               href="#menu"
@@ -58,7 +58,7 @@ export function OrderFeatures() {
               {"Besplatna Dostava"}
             </h3>
             <p className="text-taiba-white/60 leading-relaxed mb-6 max-w-sm">
-              {"Dostavljamo besplatno na teritoriji celog Novog Pazara. Vaša omiljena pizza stiže direktno na vaša vrata."}
+              {"Besplatna dostava hrane na teritoriji celog Novog Pazara! Pice, pohovana piletina, tostade, topli sendviči — sve stiže direktno na vaša vrata. Tokom Ramazana dostavljamo i za iftar i sufur!"}
             </p>
             <a
               href="#menu"

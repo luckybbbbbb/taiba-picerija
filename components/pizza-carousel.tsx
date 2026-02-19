@@ -76,6 +76,7 @@ export function PizzaCarousel() {
   return (
     <section
       ref={sectionRef}
+      aria-label="Naše pice — Kapričoza, Margarita, Fungi, Porodična"
       className="bg-taiba-dark py-16 md:py-24"
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -129,7 +130,7 @@ export function PizzaCarousel() {
                 <div className="relative w-full aspect-square rounded-full overflow-hidden">
                   <Image
                     src={pizza.image}
-                    alt={pizza.name}
+                    alt={`${pizza.name} pizza — ${pizza.ingredients} — Taiba Picerija Novi Pazar`}
                     fill
                     className="object-cover"
                     sizes="300px"

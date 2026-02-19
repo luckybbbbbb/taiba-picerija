@@ -45,6 +45,7 @@ export function MenuCategories() {
     <section
       id="menu"
       ref={sectionRef}
+      aria-label="Meni — pice, pohovana piletina, sendviči, tostade, rolovano belo"
       className="bg-taiba-black py-16 md:py-24"
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -55,10 +56,10 @@ export function MenuCategories() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white mb-4 text-balance">
-            {"Naša Ponuda"}
+            {"Naša Ponuda — Pice, Piletina, Sendviči i Više"}
           </h2>
           <p className="text-taiba-white/60 max-w-2xl mx-auto leading-relaxed">
-            {"Izaberite između naših ukusnih pica, pohovane piletine, tostada, toplih sendviča i rolovaog belog - dostavljamo direktno na vaša vrata u Novom Pazaru."}
+            {"Izaberite između naših ukusnih pica (Kapričoza, Margarita, Fungi, Porodična), pohovane piletine, tostada, toplih sendviča i rolovaog belog. Besplatna dostava na vaša vrata u Novom Pazaru — svaki dan od 11h do 23h."}
           </p>
         </div>
 

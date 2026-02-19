@@ -40,6 +40,7 @@ export function Ingredients() {
   return (
     <section
       ref={sectionRef}
+      aria-label="O Taiba Piceriji — preko 20 godina tradicije u Novom Pazaru"
       className="bg-taiba-white py-16 md:py-24"
     >
       <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
@@ -52,7 +53,7 @@ export function Ingredients() {
           <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/images/ingredients-pizza.jpg"
-              alt="Taiba Picerija — Preko 20 godina sa vama"
+              alt="Taiba Picerija Novi Pazar — kvalitetni sastojci, sveže testo, preko 20 godina tradicije"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
