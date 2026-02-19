@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Phone, User, Heart, Search, Menu, X } from "lucide-react"
+import { Phone, Menu, X } from "lucide-react"
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -15,21 +15,15 @@ export function Navbar() {
           className="inline-flex items-center gap-2 bg-taiba-red text-taiba-white px-4 py-1.5 rounded-full text-xs font-semibold hover:bg-taiba-red-dark transition-colors"
         >
           <Phone className="w-3 h-3" />
-          {"Poruči Putem Telefona: 020 000 000"}
+          {"Poruči Putem Telefona: +381 63 66 86 20"}
         </a>
         <div className="flex items-center gap-4">
-          <button aria-label="Korisnički nalog" className="text-taiba-white/70 hover:text-taiba-white transition-colors">
-            <User className="w-5 h-5" />
-          </button>
-          <button aria-label="Lista želja" className="relative text-taiba-white/70 hover:text-taiba-white transition-colors">
-            <Heart className="w-5 h-5" />
-            <span className="absolute -top-1.5 -right-1.5 bg-taiba-red text-taiba-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
-              0
-            </span>
-          </button>
-          <button aria-label="Pretraga" className="text-taiba-white/70 hover:text-taiba-white transition-colors">
-            <Search className="w-5 h-5" />
-          </button>
+          <a
+            href="#menu"
+            className="text-taiba-white/70 hover:text-taiba-white text-xs font-semibold uppercase tracking-wider transition-colors"
+          >
+            Poruči Online
+          </a>
         </div>
       </div>
 
@@ -71,10 +65,10 @@ export function Navbar() {
           </a>
         </div>
 
-        {/* Mobile search */}
-        <button aria-label="Pretraga" className="md:hidden text-taiba-white">
-          <Search className="w-6 h-6" />
-        </button>
+        {/* Mobile phone order */}
+        <a href="tel:+381000000000" aria-label="Pozovi" className="md:hidden text-taiba-white">
+          <Phone className="w-5 h-5" />
+        </a>
       </nav>
 
       {/* Mobile menu overlay */}
