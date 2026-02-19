@@ -12,7 +12,7 @@ export function Navbar() {
       {/* Top bar with phone */}
       <div className="hidden md:flex items-center justify-between px-6 py-2 border-b border-border text-sm">
         <a
-          href="tel:+381000000000"
+          href="tel:+381636686820"
           className="inline-flex items-center gap-2 bg-taiba-red text-taiba-white px-4 py-1.5 rounded-full text-xs font-semibold hover:bg-taiba-red-dark transition-colors"
         >
           <Phone className="w-3 h-3" />
@@ -69,7 +69,7 @@ export function Navbar() {
         </div>
 
         {/* Mobile phone order */}
-        <a href="tel:+381000000000" aria-label="Pozovi" className="md:hidden text-taiba-white">
+        <a href="tel:+381636686820" aria-label="Pozovi" className="md:hidden text-taiba-white">
           <Phone className="w-5 h-5" />
         </a>
       </nav>
@@ -101,11 +101,11 @@ export function Navbar() {
             </a>
             <hr className="border-border" />
             <a
-              href="tel:+381000000000"
+              href="tel:+381636686820"
               className="inline-flex items-center gap-2 bg-taiba-red text-taiba-white px-4 py-2 rounded-full text-sm font-semibold justify-center hover:bg-taiba-red-dark transition-colors"
             >
               <Phone className="w-4 h-4" />
-              {"Poruči: 020 000 000"}
+              {"Poruči: +381 63 66 86 20"}
             </a>
           </div>
         </div>
