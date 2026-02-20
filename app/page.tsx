@@ -5,6 +5,7 @@ import { MenuCategories } from "@/components/menu-categories"
 import { OrderFeatures } from "@/components/order-features"
 import { PizzaCarousel } from "@/components/pizza-carousel"
 import { Footer } from "@/components/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
 import { JsonLd } from "@/components/json-ld"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <OrderFeatures />
         <PizzaCarousel />
         <Footer />
+        <ScrollToTop />
       </main>
     </>
   )
