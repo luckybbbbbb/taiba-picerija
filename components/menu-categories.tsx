@@ -7,7 +7,15 @@ const menuSections = [
   {
     name: "Pice",
     icon: Pizza,
-    items: ["Kaprićoza", "Margarita", "Fungi", "Porodična"],
+    items: [
+      "Margherita — 350/450 RSD",
+      "Capriccioza — 420/550 RSD",
+      "Funghi — 420/550 RSD",
+      "Vegeteriana — 420/550 RSD",
+      "Chicken Pizza — 420/550 RSD",
+      "Taiba Pizza — 450/570 RSD",
+      "Tuna Pizza — 420/550 RSD",
+    ],
   },
   {
     name: "Pohovana Piletina",
@@ -56,10 +64,10 @@ export function MenuCategories() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white mb-4 text-balance">
-            {"Naša ponuda: Pice, Piletina, Sendviči i više"}
+            {"Naša Ponuda — Pice, Piletina, Sendviči i Više"}
           </h2>
           <p className="text-taiba-white/60 max-w-2xl mx-auto leading-relaxed">
-            {"Izaberite između naših ukusnih pica (Kaprićoza, Margarita, Fungi, Porodična), pohovane piletine, tostada, toplih sendviča i rolovaog belog. Besplatna dostava na vaša vrata u Novom Pazaru — svaki dan od 11h do 23h."}
+            {"Izaberite između naših ukusnih pica (Margherita, Capriccioza, Funghi, Vegeteriana, Chicken, Taiba, Tuna), pohovane piletine, tostada, toplih sendviča i rolovaog belog. Besplatna dostava u Novom Pazaru — svaki dan od 11h do 23h."}
           </p>
         </div>
 

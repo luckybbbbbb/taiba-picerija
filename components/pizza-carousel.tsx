@@ -6,28 +6,53 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const pizzas = [
   {
-    name: "MARGARITA",
+    name: "MARGHERITA",
     image: "/images/pizza-margherita.jpg",
-    price: "",
-    ingredients: "Pelat, mozzarella, bosiljak, maslinovo ulje",
+    sizes: "28/32cm",
+    price: "350/450",
+    ingredients: "Pelat, trapist",
   },
   {
-    name: "Kaprićoza",
+    name: "CAPRICCIOZA",
     image: "/images/pizza-capricciosa.jpg",
-    price: "",
-    ingredients: "Pelat, mozzarella, pršuta, šampinjoni, masline",
+    sizes: "28/32cm",
+    price: "420/550",
+    ingredients: "Pelat, trapist, pršuta, pečurke",
   },
   {
-    name: "FUNGI",
+    name: "FUNGHI",
     image: "/images/pizza-prosciutto.jpg",
-    price: "",
-    ingredients: "Pelat, mozzarella, šampinjoni, maslinovo ulje",
+    sizes: "28/32cm",
+    price: "420/550",
+    ingredients: "Pelat, trapist, pečurke",
   },
   {
-    name: "PORODIČNA",
+    name: "VEGETERIANA",
     image: "/images/pizza-quattro.jpg",
-    price: "",
-    ingredients: "Velika pizza za celu porodicu - pelat, mozzarella, pršuta, šampinjoni",
+    sizes: "28/32cm",
+    price: "420/550",
+    ingredients: "Pelat, trapist, povrće",
+  },
+  {
+    name: "CHICKEN PIZZA",
+    image: "/images/pizza-diavola.jpg",
+    sizes: "28/32cm",
+    price: "420/550",
+    ingredients: "Pelat, trapist, piletina, pečurke, kukuruz",
+  },
+  {
+    name: "TAIBA PIZZA",
+    image: "/images/pizza-bufalo.jpg",
+    sizes: "28/32cm",
+    price: "450/570",
+    ingredients: "Pelat, trapist, pršuta, povrće",
+  },
+  {
+    name: "TUNA PIZZA",
+    image: "/images/hero-pizza.jpg",
+    sizes: "28/32cm",
+    price: "420/550",
+    ingredients: "Pelat, trapist, tuna",
   },
 ]
 
@@ -76,7 +101,7 @@ export function PizzaCarousel() {
   return (
     <section
       ref={sectionRef}
-      aria-label="Naše pice — Kaprićoza, Margarita, Fungi, Porodična"
+      aria-label="Naše pice — Margherita, Capriccioza, Funghi, Vegeteriana, Chicken, Taiba, Tuna"
       className="bg-taiba-dark py-16 md:py-24"
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -118,7 +143,7 @@ export function PizzaCarousel() {
           {pizzas.map((pizza, i) => (
             <div
               key={pizza.name}
-              className={`flex-shrink-0 w-[280px] md:w-[300px] bg-taiba-black rounded-2xl overflow-hidden group snap-start transition-all duration-700 hover:scale-[1.03] ${
+              className={`flex-shrink-0 w-[280px] md:w-[300px] min-h-[480px] bg-taiba-black rounded-2xl overflow-hidden group snap-start flex flex-col transition-all duration-700 hover:scale-[1.03] ${
                 visible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
@@ -138,22 +163,23 @@ export function PizzaCarousel() {
                 </div>
                 {/* Price badge */}
                 {pizza.price && (
-                  <div className="absolute top-4 right-4 bg-taiba-red text-taiba-white text-sm font-bold px-3 py-1.5 rounded-full">
+                  <div className="absolute top-4 right-4 bg-taiba-red text-taiba-white text-xs font-bold px-3 py-1.5 rounded-full">
                     {pizza.price} RSD
                   </div>
                 )}
               </div>
 
               {/* Info */}
-              <div className="p-6 pt-2 space-y-3">
+              <div className="p-6 pt-2 flex flex-col flex-1">
                 <h3 className="font-bold text-taiba-white text-lg uppercase tracking-wider">
                   {pizza.name}
                 </h3>
-                <p className="text-taiba-white/50 text-sm leading-relaxed line-clamp-2">
+                <p className="text-taiba-white/40 text-xs font-semibold mt-1">{pizza.sizes}</p>
+                <p className="text-taiba-white/50 text-sm leading-relaxed line-clamp-2 mt-1">
                   {pizza.ingredients}
                 </p>
 
-                <div className="pt-2">
+                <div className="mt-auto pt-4">
                   <a
                     href="tel:+381636686820"
                     className="block bg-taiba-red text-taiba-white py-3 rounded-lg font-bold text-xs uppercase tracking-wider hover:bg-taiba-red-dark transition-colors text-center"
