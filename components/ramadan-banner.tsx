@@ -71,10 +71,7 @@ export function RamadanBanner() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-taiba-white mb-6 text-balance">
             {"Ramazanski Meni — Iftar i Sufur Dostava u Novom Pazaru 🌙"}
           </h2>
-          <p className="text-taiba-white/80 text-base md:text-lg mb-4">
-            {"Od subote (21.02.) Taiba će raditi"}
-          </p>
-
+          
           <div className="space-y-3 mb-6 max-w-lg mx-auto">
             <p className="text-taiba-white text-lg md:text-xl font-semibold flex items-center justify-center gap-3">
               <Check className="w-5 h-5 text-green-400 flex-shrink-0" />
