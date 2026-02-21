@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const inter = Inter({
@@ -122,6 +123,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sr" className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-KYD5SR2QR8"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KYD5SR2QR8');
+          `}
+        </Script>
+      </head>
       <body className="font-sans antialiased bg-background text-foreground">
         {children}
         <Analytics />
