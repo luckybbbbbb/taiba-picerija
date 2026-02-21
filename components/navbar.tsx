@@ -10,7 +10,7 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-taiba-black/95 backdrop-blur-sm border-b border-border">
       {/* Top bar with phone */}
-      <div className="hidden md:flex items-center justify-between px-6 py-2 border-b border-border text-sm">
+      <div className="hidden md:flex items-center justify-center px-6 py-2 border-b border-border text-sm">
         <a
           href="tel:+381636686820"
           className="inline-flex items-center gap-2 bg-taiba-red text-taiba-white px-4 py-1.5 rounded-full text-xs font-semibold hover:bg-taiba-red-dark transition-colors"
@@ -18,14 +18,6 @@ export function Navbar() {
           <Phone className="w-3 h-3" />
           {"Poruči Putem Telefona: +381 63 66 86 20"}
         </a>
-        <div className="flex items-center gap-4">
-          <a
-            href="#menu"
-            className="text-taiba-white/70 hover:text-taiba-white text-xs font-semibold uppercase tracking-wider transition-colors"
-          >
-            Poruči Online
-          </a>
-        </div>
       </div>
 
       {/* Main navbar */}
