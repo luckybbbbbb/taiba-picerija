@@ -4,7 +4,7 @@ import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
 
 const categories = [
-  { label: "PICE", href: "#menu" },
+  { label: "PICE", href: "#pice" },
   { label: "RAMAZANSKI MENI", href: "#ramazan" },
   { label: "CELA PONUDA", href: "#menu" },
 ]

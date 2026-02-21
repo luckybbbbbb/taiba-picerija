@@ -107,6 +107,7 @@ export function PizzaCarousel() {
 
   return (
     <section
+      id="pice"
       ref={sectionRef}
       aria-label="Naše pice — Margherita, Capriccioza, Funghi, Vegeteriana, Chicken, Taiba, Tuna"
       className="bg-taiba-dark py-16 md:py-24"
