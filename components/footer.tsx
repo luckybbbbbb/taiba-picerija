@@ -8,20 +8,11 @@ const infoLinks = [
   { label: "Kontakt", href: "#kontakt" },
 ]
 
-const paymentMethods = [
-  "Visa",
-  "MasterCard",
-  "Maestro",
-  "AmEx",
-  "PayPal",
-  "Gotovina",
-]
-
 export function Footer() {
   return (
     <footer id="kontakt" aria-label="Kontakt informacije — Taiba Picerija Novi Pazar" className="bg-taiba-gray pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 mb-12">
           {/* Logo */}
           <div className="space-y-4">
             <Image
@@ -88,24 +79,6 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-
-          {/* Payment */}
-          <div>
-            <h4 className="text-taiba-white font-bold uppercase tracking-wider text-sm mb-1">
-              {"Plaćanje"}
-            </h4>
-            <div className="w-12 h-0.5 bg-taiba-red mb-6" />
-            <div className="flex flex-wrap gap-2">
-              {paymentMethods.map((method) => (
-                <span
-                  key={method}
-                  className="bg-taiba-white/10 text-taiba-white/70 text-xs font-medium px-3 py-2 rounded-md"
-                >
-                  {method}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
 
