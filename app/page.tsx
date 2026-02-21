@@ -2,7 +2,6 @@ import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { RamadanBanner } from "@/components/ramadan-banner"
 import { MenuCategories } from "@/components/menu-categories"
-import { OrderFeatures } from "@/components/order-features"
 import { PizzaCarousel } from "@/components/pizza-carousel"
 import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
@@ -17,7 +16,6 @@ export default function Home() {
         <Hero />
         <RamadanBanner />
         <MenuCategories />
-        <OrderFeatures />
         <PizzaCarousel />
         <Footer />
         <ScrollToTop />
