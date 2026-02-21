@@ -10,7 +10,7 @@ export function JsonLd() {
     telephone: '+381636686820',
     email: 'info@taiba.rs',
     image: 'https://taiba-picerija.vercel.app/images/hero-pizza.jpg',
-    logo: 'https://taiba-picerija.vercel.app/images/taiba-logo.png',
+    logo: 'https://taiba-picerija.vercel.app/images/taiba_transparent.png',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Veljka Vlahovića 12',

@@ -41,7 +41,7 @@ export function Navbar() {
         {/* Logo center */}
         <a href="#pocetna" className="flex items-center">
           <Image
-            src="/images/taiba-logo.png"
+            src="/images/taiba_transparent.png"
             alt="Taiba Picerija & Restaurant — Dostava hrane Novi Pazar"
             width={120}
             height={112}

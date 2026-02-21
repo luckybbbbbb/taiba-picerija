@@ -92,6 +92,10 @@ export const metadata: Metadata = {
       'Poručite online picu, pohovanu piletinu, tostade i sendviče. Besplatna dostava. Ramazanski meni za iftar i sufur!',
     images: ['/images/hero-pizza.jpg'],
   },
+  icons: {
+    icon: '/images/taiba_transparent.png',
+    apple: '/images/taiba_transparent.png',
+  },
   category: 'restaurant',
   verification: {
     // Dodaj Google Search Console verification kod ovde kada ga dobiješ

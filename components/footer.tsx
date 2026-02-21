@@ -16,7 +16,7 @@ export function Footer() {
           {/* Logo */}
           <div className="space-y-4">
             <Image
-              src="/images/taiba-logo.png"
+              src="/images/taiba_transparent.png"
               alt="Taiba Picerija & Restaurant — Logo — Dostava hrane Novi Pazar"
               width={120}
               height={112}
