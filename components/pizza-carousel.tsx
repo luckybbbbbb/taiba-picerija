@@ -54,6 +54,13 @@ const pizzas = [
     price: "420/550",
     ingredients: "Pelat, trapist, tuna",
   },
+  {
+    name: "PORODIČNA PIZZA",
+    image: "/images/pizza-quattro.jpg",
+    sizes: "Za 4 osobe",
+    price: "1800",
+    ingredients: "Pizza za celu porodicu + Coca-Cola 2L gratis!",
+  },
 ]
 
 export function PizzaCarousel() {

@@ -117,6 +117,13 @@ export function JsonLd() {
             suitableForDiet: 'https://schema.org/HalalDiet',
             offers: { '@type': 'Offer', price: '420', priceCurrency: 'RSD' },
           },
+          {
+            '@type': 'MenuItem',
+            name: 'Porodična Pizza',
+            description: 'Pizza za 4 osobe + Coca-Cola 2L gratis — 1800 RSD',
+            suitableForDiet: 'https://schema.org/HalalDiet',
+            offers: { '@type': 'Offer', price: '1800', priceCurrency: 'RSD' },
+          },
         ],
       },
       {

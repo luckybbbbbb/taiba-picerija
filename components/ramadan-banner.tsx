@@ -6,7 +6,7 @@ import { Moon, Star, Check } from "lucide-react"
 const menuItems = [
   {
     category: "Pice",
-    items: ["Margherita", "Capriccioza", "Funghi", "Vegeteriana", "Chicken Pizza", "Taiba Pizza", "Tuna Pizza"],
+    items: ["Margherita", "Capriccioza", "Funghi", "Vegeteriana", "Chicken Pizza", "Taiba Pizza", "Tuna Pizza", "Porodična (4 osobe) + Coca-Cola 2L"],
   },
   {
     category: "Ostala Ponuda",

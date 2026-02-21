@@ -15,6 +15,7 @@ const menuSections = [
       "Chicken Pizza — 420/550 RSD",
       "Taiba Pizza — 450/570 RSD",
       "Tuna Pizza — 420/550 RSD",
+      "Porodična Pizza (4 osobe) — 1800 RSD + Coca-Cola 2L",
     ],
   },
   {
