@@ -58,10 +58,10 @@ export function Hero() {
             Taiba Picerija - Preko 20 godina sa vama
           </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-taiba-white leading-tight text-balance">
-            {"Dostava Hrane Novi Pazar — Poručite Vašu Omiljenu Pizzu Online"}
+            {"Poručite vašu omiljenu Pizzu online"}
           </h1>
           <p className="text-lg md:text-xl font-bold text-taiba-white">
-            {"Taiba BESPLATNO Dostavlja na Vašu Adresu!"}
+            {"Taiba BESPLATNO dostavlja na Vašu adresu!"}
           </p>
           <p className="text-taiba-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
             {"Uživajte u najboljoj pici, pohovanoj piletini, tostadama i sendvičima iz udobnosti svog doma! Taiba Picerija & Restaurant — picerija sa tradicijom dužom od 20 godina u Novom Pazaru. Margherita, Capriccioza, Funghi, Vegeteriana, Chicken, Taiba i Tuna pizza. Dostavljamo svakog dana od 11h do 23h."}
